@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Travel Recommendation Website</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav id="main-nav">
+      <div class="logo">
+        <h1>Logo</h1>
+      </div>
+      <ul class="left-nav">
+        <li><a href="travel_recommendation.html">Home</a></li>
+        <li><a href="about_us.html">About Us</a></li>
+        <li><a href="contact_us.html">Contact Us</a></li>
+      </ul>
+      <div class="search-bar">
+        <input type="text" placeholder="Enter a destination or keyword" />
+        <button onclick="executeSearch()">Search</button>
+        <button onclick="clearResults()">Reset</button>
+      </div>
+    </nav>
+
+    <nav id="social"></nav>
+    <div id="home-content">
+      <article id="home-article">
+        <h1 id="main-heading">Explore Dream Destination</h1>
+
+        <p>
+          Welcome to our travel recommendation website! Whether you're looking
+          for a serene beach, a bustling city, or a quaint countryside, we've
+          got you covered. Our platform provides personalized travel suggestions
+          based on your preferences. Discover hidden gems, popular tourist
+          spots, and everything in between. Start your adventure with us today
+          and make unforgettable memories!
+        </p>
+        <button type="button">Book Now</button>
+      </article>
+      <section class="results"></section>
+    </div>
+
+    <script src="travel_recommendation.js"></script>
+  </body>
+</html>
